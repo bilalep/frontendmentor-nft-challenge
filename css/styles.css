@@ -13,6 +13,10 @@ h2 { /* Equilibrium #3429 */
   padding: 10px auto 0 10px;
 }
 
+h2:hover {
+  color:hsl(178, 100%, 50%);
+}
+
 hr {
   color: hsl(215, 32%, 27%);
   border-style: solid none none none;
@@ -32,6 +36,40 @@ hr {
 .eq-img {
   width: 100%;
   border-radius: 1rem;
+}
+
+.eq-img-container {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.eye-hover {
+  position: absolute;
+  background-color:hsla(178, 100%, 50%, 0.507);
+  left: 0;
+  top: 0;
+  width: 350px;
+  height: 350px;
+  border-radius: 1rem;
+  display: none;
+}
+
+.eq-img:hover + .eye-hover{
+  display: block;
+}
+
+.eye-hover:hover {
+  display: block;
+}
+
+.eye-icon {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: block;
+  width:48px;
 }
 
 .nft-description { /* Our Equilibrium collection promotes balance and calm. */
@@ -94,4 +132,8 @@ hr {
 
 .author-name {
   color: white;
+}
+
+.author-name:hover {
+  color:hsl(178, 100%, 50%);
 }
