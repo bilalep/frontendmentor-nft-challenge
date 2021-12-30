@@ -1,0 +1,97 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+h2 { /* Equilibrium #3429 */
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0px;
+  padding: 10px auto 0 10px;
+}
+
+hr {
+  color: hsl(215, 32%, 27%);
+  border-style: solid none none none;
+  border-width: 1px;
+  margin: 20px auto 20px;
+}
+
+.main-card { 
+  background-color: hsl(216, 50%, 16%);
+  width: 350px;
+  border-radius: 1rem;
+  margin: 50px auto;
+  padding: 25px;
+  box-shadow: 0 30px 0 20px #0000000f, 0 30px 0 50px #00000006;
+}
+
+.eq-img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.nft-description { /* Our Equilibrium collection promotes balance and calm. */
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px auto 0 10px;
+}
+
+.price-expiry {
+  padding-top: 10px;
+}
+
+.price {
+  padding: 2px 0;
+  display: inline-block;
+}
+
+.eth-icon {
+  height: 100%;
+  padding: 10px auto 0 10px;
+  vertical-align: middle;
+}
+
+.eth-value { /* 0.041 ETH */
+  padding-left: 5px;
+  vertical-align: middle;
+  font-weight: 600;
+  color: hsl(178, 100%, 50%);
+}
+
+.expiry-group {
+  text-align: right;
+  float: right;
+}
+
+.clock-icon{
+  vertical-align: middle
+}
+
+.expiry { /* 3 days left */
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+.author-group{
+  padding-bottom: 10px;
+}
+
+.author-pic {
+  width: 30px;
+  border: 2px solid;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.author-description {
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.author-name {
+  color: white;
+}
